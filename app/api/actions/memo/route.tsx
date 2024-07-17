@@ -18,7 +18,7 @@ import {
   export const GET = (req: Request) => {
     const payload: ActionGetResponse = {
       icon: new URL("/therock.webp", new URL(req.url).origin).toString(),
-      label: "This is the Rock meme",
+      label: "Buy The Rock Fanny Pack",
       title: "Rock Fanny Pack",
       description: "This is a super simple Action",
   
