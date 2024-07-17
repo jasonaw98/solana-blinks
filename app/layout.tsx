@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   twitter: {
     site: `@jasonaw98`,
     creator: `@jasonaw98`,
-    card: "summary",
-    // card: "summary_large_image",
+    card: "summary_large_image",
+    images: ["/therock.webp"],
   },
   category: "technology",
 };
