@@ -32,9 +32,9 @@ import {
       ).toString();
   
       const payload: ActionGetResponse = {
-        title: DEFAULT_TITLE,
+        title: "The Rock Fanny Pack",
         icon: new URL("/therock.webp", requestUrl.origin).toString(),
-        description: DEFAULT_DESCRIPTION,
+        description: "Buy my Fanny Pack! Thanks for your supporting",
         label: "Transfer", // this value will be ignored since `links.actions` exists
         links: {
           actions: [
