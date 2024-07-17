@@ -7,10 +7,6 @@ export const GET = async () => {
         pathPattern: "/blink",
         apiPath: "/api/actions/donate",
       },
-      {
-        pathPattern: "/api/actions/**",
-        apiPath: "/api/actions/**",
-      },
     ],
   };
 
